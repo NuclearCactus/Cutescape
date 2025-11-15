@@ -800,6 +800,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: cuteWorldText
+      value: I am the main character of my own movie!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: realWorldText
+      value: i have scared of accepting love
+      objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -926,6 +934,14 @@ PrefabInstance:
     - target: {fileID: 1975737604253749220, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_Name
       value: NPC (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: cuteWorldText
+      value: Haha look at the flowers, they are growing only for me!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: realWorldText
+      value: The people destroyed my garden, and I want to die
       objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1509,6 +1525,14 @@ PrefabInstance:
     - target: {fileID: 1975737604253749220, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_Name
       value: NPC (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: cuteWorldText
+      value: I have the best seat in here, I can see everything!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: realWorldText
+      value: I want people to notice me.
       objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4157,6 +4181,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: cuteWorldText
+      value: My art is unmatched! Look at my skills.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: realWorldText
+      value: My parents never praised me
+      objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.9
@@ -6556,6 +6588,14 @@ PrefabInstance:
     - target: {fileID: 1975737604253749220, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_Name
       value: NPC (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: cuteWorldText
+      value: Wholesomeness forever!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: realWorldText
+      value: I saw a dead baby, it was bleeding
       objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13634,6 +13674,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: cuteWorldText
+      value: Negativity is for stupid people
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
+      propertyPath: realWorldText
+      value: I never found my people, maybe you will find yours
+      objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 58.81
@@ -16927,11 +16975,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: cuteWorldText
-      value: Need more followers
+      value: Come back when you have more followers!
       objectReference: {fileID: 0}
     - target: {fileID: 5781330014969242228, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: realWorldText
-      value: Need more friends
+      value: No gap can be crossed alone
       objectReference: {fileID: 0}
     - target: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
       propertyPath: m_LocalPosition.x
