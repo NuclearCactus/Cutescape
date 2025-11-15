@@ -7977,6 +7977,162 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a838e4e2cec732439f2b19fd4f196f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CuteWorldObject
+--- !u!1 &925396030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925396033}
+  - component: {fileID: 925396032}
+  - component: {fileID: 925396031}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &925396031
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925396030}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &925396032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925396030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03613c01a1c56b4bb48c5fb041bb4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  walkSound: {fileID: 8300000, guid: 5ac013f6551d4a840912431c68331cd7, type: 3}
+  jumpSound: {fileID: 8300000, guid: a4e80d427bf95b84f9a93d52ff7f2e55, type: 3}
+  fallDeathSound: {fileID: 8300000, guid: b85fa6e1fcc9aac49bdd68be1a3e91cb, type: 3}
+  cuteNPCSounds:
+  - {fileID: 8300000, guid: 5330d55d37c42e445aa2a522e6186c6a, type: 3}
+  - {fileID: 8300000, guid: dcadb78ff3cde104894d5c0a6e69a0c7, type: 3}
+  realNPCSounds:
+  - {fileID: 8300000, guid: 79561a581260c094ea1fc0c40f60af09, type: 3}
+  - {fileID: 8300000, guid: 82183da5e71bd264bb960df5fbdb3e1f, type: 3}
+  phoneOnSound: {fileID: 8300000, guid: 48dc9c955608248429be66b13da577b9, type: 3}
+  phoneOffSound: {fileID: 8300000, guid: e4eb7944cb75dfe4196d7d29910e2b6f, type: 3}
+  batteryPickupSound: {fileID: 8300000, guid: 64abc23e475a70a44a704458a3bf6359, type: 3}
+  batteryEmptySound: {fileID: 8300000, guid: 674be377da160e84a97aace0b0c9a773, type: 3}
+  batteryFullDeathSound: {fileID: 8300000, guid: 6188ee1325dc6d141b3dcfa8b780b314, type: 3}
+--- !u!4 &925396033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925396030}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &937442932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -18723,3 +18879,4 @@ SceneRoots:
   - {fileID: 1395382645}
   - {fileID: 508820764}
   - {fileID: 2066905059}
+  - {fileID: 925396033}

@@ -25,6 +25,9 @@ public class PlayerController : MonoBehaviour
     
     public float interactionRange = 2f;
     
+    private bool isWalking = false;
+    private bool wasGrounded = true;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -34,6 +37,20 @@ public class PlayerController : MonoBehaviour
     {
         // Movement input
         moveInput = Input.GetAxisRaw("Horizontal");
+        
+        // Walking SFX
+        if (isGrounded)
+        {
+            if (moveInput != 0 && !isWalking)
+            {
+                isWalking = true;
+                SFXManager.Instance.PlaySFX(SFXManager.Instance.walkSound);
+            }
+            else if (moveInput == 0)
+            {
+                isWalking = false;
+            }
+        }
 
         // Ground check
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
@@ -50,6 +67,7 @@ public class PlayerController : MonoBehaviour
             if (isGrounded)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                SFXManager.Instance.PlaySFX(SFXManager.Instance.jumpSound);
             }
             // WALL JUMP
             else if (wallJumpUnlocked && isTouchingWall)
@@ -61,6 +79,7 @@ public class PlayerController : MonoBehaviour
 
                 // push away from wall
                 rb.linearVelocity = new Vector2(-wallDir * moveSpeed, wallJumpForce);
+                SFXManager.Instance.PlaySFX(SFXManager.Instance.jumpSound);
             }
         }
 
@@ -78,6 +97,15 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+        
+        // Landing SFX
+        if (isGrounded && rb.linearVelocity.y == 0 && !isTouchingWall)
+        {
+            // only if recently in air
+            if (!wasGrounded)
+                SFXManager.Instance.PlaySFX(SFXManager.Instance.jumpSound);
+        }
+        wasGrounded = isGrounded;
     }
 
     void FixedUpdate()

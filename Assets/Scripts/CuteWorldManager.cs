@@ -134,6 +134,8 @@ public class CuteWorldManager : MonoBehaviour
 
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 1);
         FMODUnity.RuntimeManager.PlayOneShot(cuteModeEnabledSound);
+        
+        SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOnSound);
 
     }
 
@@ -154,6 +156,8 @@ public class CuteWorldManager : MonoBehaviour
         UpdateBatteryUI();
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 0);
         FMODUnity.RuntimeManager.PlayOneShot(cuteModeDisabledSound);
+        
+        SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOffSound);
     }
 
     // ============================
@@ -173,6 +177,7 @@ public class CuteWorldManager : MonoBehaviour
         if (batteryAmmo > 0)
         {
             batteryAmmo--;
+            SFXManager.Instance.PlaySFX(SFXManager.Instance.batteryEmptySound);
             currentBattery = maxBattery;
             UpdateBatteryUI();
         }
@@ -180,6 +185,7 @@ public class CuteWorldManager : MonoBehaviour
         {
             // Out of battery completely → forced real world → player dies
             DisableCuteMode();
+            SFXManager.Instance.PlaySFX(SFXManager.Instance.batteryFullDeathSound);
             player.Respawn();
         }
     }

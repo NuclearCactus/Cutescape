@@ -44,7 +44,12 @@ public class NPCDialogue : MonoBehaviour
         bool cute = CuteWorldManager.Instance.isCuteMode;
 
         string textToShow = cute ? cuteWorldText : realWorldText;
-
+        
+        if (cute)
+            SFXManager.Instance.PlayRandomSFX(SFXManager.Instance.cuteNPCSounds);
+        else
+            SFXManager.Instance.PlayRandomSFX(SFXManager.Instance.realNPCSounds);
+        
         DialogueManager.Instance.ShowDialogue(
             textToShow,
             transform.position + dialogueOffset,

@@ -21,6 +21,7 @@ public class BatteryPickup : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             CuteWorldManager.Instance.RefillBattery();
+            SFXManager.Instance.PlaySFX(SFXManager.Instance.batteryPickupSound);
             gameObject.SetActive(false);
         }
     }

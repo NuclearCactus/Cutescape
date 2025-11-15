@@ -6,6 +6,7 @@ public class DeathZone : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            SFXManager.Instance.PlaySFX(SFXManager.Instance.fallDeathSound);
             collision.GetComponent<PlayerController>().Respawn();
         }
     }
