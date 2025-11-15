@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using FMODUnity;
 
 public class CuteWorldManager : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class CuteWorldManager : MonoBehaviour
     public float currentBattery = 0f;    // runtime timer
     public int batteryAmmo = 0;          // stored extra batteries
     public bool isCuteMode = false;
+
+    public EventReference cuteModeEnabledSound;
+    public EventReference cuteModeDisabledSound;
 
     // Original stats
     private float originalMoveSpeed;
@@ -127,6 +131,10 @@ public class CuteWorldManager : MonoBehaviour
             obj.SetCuteMode(true);
 
         UpdateBatteryUI();
+
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 1);
+        FMODUnity.RuntimeManager.PlayOneShot(cuteModeEnabledSound);
+
     }
 
     public void DisableCuteMode()
@@ -144,6 +152,8 @@ public class CuteWorldManager : MonoBehaviour
             obj.SetCuteMode(false);
 
         UpdateBatteryUI();
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 0);
+        FMODUnity.RuntimeManager.PlayOneShot(cuteModeDisabledSound);
     }
 
     // ============================
