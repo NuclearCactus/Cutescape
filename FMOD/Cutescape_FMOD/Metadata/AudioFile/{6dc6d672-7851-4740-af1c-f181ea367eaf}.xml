@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6dc6d672-7851-4740-af1c-f181ea367eaf}">
+		<property name="assetPath">
+			<value>cute world chill version.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>77.837833333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a0ffcccd-8bc2-4e5a-b3d7-0a205e495e4f}</destination>
+		</relationship>
+	</object>
+</objects>

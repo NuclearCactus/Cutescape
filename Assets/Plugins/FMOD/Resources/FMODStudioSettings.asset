@@ -466,7 +466,7 @@ MonoBehaviour:
   sourceProjectPath: FMOD/Cutescape_FMOD/Cutescape_FMOD.fspro
   sourceBankPath: FMOD/Cutescape_FMOD/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0
