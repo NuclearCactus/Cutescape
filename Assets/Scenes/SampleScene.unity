@@ -9613,52 +9613,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
---- !u!1 &1190949145
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1190949146}
-  - component: {fileID: 1190949147}
-  m_Layer: 0
-  m_Name: FModListener
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1190949146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190949145}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1304507629}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1190949147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190949145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
-  nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
 --- !u!4 &1191116157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 12153945901282947, guid: 7005ca12d4a113a49ab0fbf3fbb645fc, type: 3}
@@ -9992,69 +9946,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
   m_PrefabInstance: {fileID: 2063326988}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1218609049
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1218609051}
-  - component: {fileID: 1218609050}
-  m_Layer: 0
-  m_Name: FModEventEmitter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1218609050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218609049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1359971702
-      Data2: 1179629430
-      Data3: -1972292223
-      Data4: 1389317816
-    Path: event:/Music
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!4 &1218609051
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218609049}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1218687767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11288,7 +11179,6 @@ Transform:
   - {fileID: 948589163}
   - {fileID: 1852378812}
   - {fileID: 1526603333}
-  - {fileID: 1190949146}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1304507630
@@ -11805,7 +11695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1368876941}
   m_Layer: 0
-  m_Name: qqtr
+  m_Name: Pickups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14791,21 +14681,7 @@ MonoBehaviour:
   cuteJumpForce: 20
   currentBattery: 0
   batteryAmmo: 0
-  isCuteMode: 1
-  cuteModeEnabledSound:
-    Guid:
-      Data1: -73333465
-      Data2: 1268575927
-      Data3: 342693041
-      Data4: 2083544806
-    Path: event:/TransitionToCute
-  cuteModeDisabledSound:
-    Guid:
-      Data1: -906010228
-      Data2: 1228737145
-      Data3: 1623041456
-      Data4: 1529395418
-    Path: event:/TransitionFromCute
+  isCuteMode: 0
 --- !u!4 &1647149990
 Transform:
   m_ObjectHideFlags: 0
@@ -18512,4 +18388,3 @@ SceneRoots:
   - {fileID: 1395382645}
   - {fileID: 508820764}
   - {fileID: 2066905059}
-  - {fileID: 1218609051}
