@@ -7,7 +7,6 @@ public class BatteryPickup : MonoBehaviour
 
     void Awake()
     {
-        // Register this pickup
         if (!allPickups.Contains(this))
             allPickups.Add(this);
     }
@@ -22,7 +21,7 @@ public class BatteryPickup : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             CuteWorldManager.Instance.RefillBattery();
-            gameObject.SetActive(false); // hide pickup
+            gameObject.SetActive(false);
         }
     }
 }

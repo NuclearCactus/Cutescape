@@ -9,6 +9,9 @@ public class NPCDialogue : MonoBehaviour
     public float displayDuration = 2.5f;
     public float detectionRange = 2f;
     public Vector3 dialogueOffset = new Vector3(0, 1.5f, 0);
+    
+    [Header("Special NPC Abilities")]
+    public bool unlocksWallJump = false;  // ← Add this
 
     private Transform player;
     private bool isPlayerNearby = false;
@@ -36,7 +39,7 @@ public class NPCDialogue : MonoBehaviour
         }
     }
 
-    void HandleInteraction()
+    public void HandleInteraction()
     {
         bool cute = CuteWorldManager.Instance.isCuteMode;
 
@@ -52,6 +55,16 @@ public class NPCDialogue : MonoBehaviour
         if (!hasInteracted)
         {
             hasInteracted = true;
+
+            if (unlocksWallJump)
+            {
+                // Find the player instance in the scene
+                PlayerController player = FindObjectOfType<PlayerController>();
+                if (player != null)
+                {
+                    player.wallJumpUnlocked = true;  // unlock wall jump
+                }
+            }
 
             if (cute)
                 ConnectionTracker.Instance.AddCuteConnection();

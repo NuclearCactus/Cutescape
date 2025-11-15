@@ -12,6 +12,10 @@ public class ConnectionTracker : MonoBehaviour
     [Header("UI References")]
     public TextMeshProUGUI realWorldTextUI;
     public TextMeshProUGUI cuteWorldTextUI;
+    
+    [Header("Bridge")]
+    public GameObject bridge; // assign the bridge object in inspector
+    public int realConnectionsRequiredForBridge = 10;
 
     void Awake()
     {
@@ -19,12 +23,22 @@ public class ConnectionTracker : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+        
+        // Ensure bridge is inactive initially
+        if (bridge != null)
+            bridge.SetActive(false);
     }
 
     public void AddRealConnection()
     {
         realWorldConnections++;
         UpdateUI();
+        
+        // Check if we can activate the bridge
+        if (bridge != null && realWorldConnections >= realConnectionsRequiredForBridge)
+        {
+            bridge.SetActive(true);
+        }
     }
 
     public void AddCuteConnection()

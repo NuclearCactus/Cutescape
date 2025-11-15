@@ -1,59 +1,74 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CuteWorldManager : MonoBehaviour
 {
     public static CuteWorldManager Instance;
-    
+
     [Header("References")]
-    public PlayerController player;      // drag your player controller
-    public Slider batterySlider;         // drag the UI slider
-    public GameObject batteryUI;         // the slider’s parent
+    public PlayerController player;      
+    public Slider batterySlider;         
+    public GameObject batteryUI;         
+    public TMP_Text batteryAmmoText;     // UI showing how many extra batteries
+    public CuteWorldObject[] cuteObjects;
 
     [Header("Settings")]
-    public float maxBattery = 5f;        // seconds
-    public float batteryDrainRate = 1f;  // drains per second
+    public float maxBattery = 5f;        // seconds per battery
+    public float batteryDrainRate = 1f;  // rate per second
     public KeyCode toggleKey = KeyCode.F;
 
-    [Header("Player Cute Stats")]
+    [Header("Cute World Stats")]
     public float cuteMoveSpeed = 10f;
     public float cuteJumpForce = 20f;
 
-    public float currentBattery;
+    [Header("Runtime Variables")]
+    public float currentBattery = 0f;    // runtime timer
+    public int batteryAmmo = 0;          // stored extra batteries
     public bool isCuteMode = false;
 
-    // Cache original stats
+    // Original stats
     private float originalMoveSpeed;
     private float originalJumpForce;
-
-    [SerializeField]private CuteWorldObject[] cuteObjects;
 
     void Awake()
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject); // optional: ensure only one manager exists
+            Destroy(gameObject);
             return;
         }
-
         Instance = this;
     }
-    
+
     void Start()
     {
         originalMoveSpeed = player.moveSpeed;
         originalJumpForce = player.jumpForce;
 
-        // cuteObjects = FindObjectsByType<CuteWorldObject>(FindObjectsSortMode.None);
+        currentBattery = 0f;     // starts empty
+        batteryAmmo = 0;         // no batteries at start
 
-        batteryUI.SetActive(false); // hidden initially
+        batteryUI.SetActive(false);
+        UpdateBatteryUI();
     }
 
     void Update()
     {
+        // Toggle cute world manually
         if (Input.GetKeyDown(toggleKey))
-            ToggleCuteMode();
+        {
+            if (isCuteMode)
+            {
+                DisableCuteMode();   // player exits early
+            }
+            else
+            {
+                TryEnableCuteMode(); // only works if they have battery
+            }
+        }
 
+        // Drain battery when cute mode is active
         if (isCuteMode)
         {
             currentBattery -= batteryDrainRate * Time.deltaTime;
@@ -61,59 +76,111 @@ public class CuteWorldManager : MonoBehaviour
 
             if (currentBattery <= 0)
             {
-                DisableCuteMode();
-                // Call respawn on player
-                PlayerController player = FindObjectOfType<PlayerController>();
-                if (player != null)
-                    player.Respawn();
+                ConsumeBattery();
             }
         }
     }
 
-    void ToggleCuteMode()
+    // ============================
+    //   CUTE MODE ON/OFF
+    // ============================
+
+    void TryEnableCuteMode()
     {
-        if (isCuteMode)
-            DisableCuteMode();
-        else
+        // Can only enter if:
+        // - they have ammo OR
+        // - currentBattery already has something (rare case)
+        if (currentBattery > 0 || batteryAmmo > 0)
+        {
             EnableCuteMode();
+        }
+        else
+        {
+            // No battery → cannot transform
+            Debug.Log("No battery to enter Cute World.");
+        }
     }
 
     void EnableCuteMode()
     {
         isCuteMode = true;
-        currentBattery = maxBattery;
 
+        // If current battery expired before, refill it from ammo
+        if (currentBattery <= 0)
+        {
+            if (batteryAmmo > 0)
+            {
+                batteryAmmo--;
+                currentBattery = maxBattery;
+            }
+        }
+
+        // Activate UI
+        batteryUI.SetActive(true);
+
+        // Boost stats
         player.moveSpeed = cuteMoveSpeed;
         player.jumpForce = cuteJumpForce;
 
-        batteryUI.SetActive(true);
-
+        // Activate cute objects
         foreach (var obj in cuteObjects)
             obj.SetCuteMode(true);
 
-        // TODO hook visual/audio changes:
-        // - Change skybox / post processing / sprite material
-        // - Change music
+        UpdateBatteryUI();
     }
 
-    void DisableCuteMode()
+    public void DisableCuteMode()
     {
         isCuteMode = false;
 
+        // Restore stats
         player.moveSpeed = originalMoveSpeed;
         player.jumpForce = originalJumpForce;
 
         batteryUI.SetActive(false);
 
+        // Deactivate cute objects
         foreach (var obj in cuteObjects)
             obj.SetCuteMode(false);
 
-        // TODO: revert visuals/audio
+        UpdateBatteryUI();
     }
-    
+
+    // ============================
+    //   BATTERY MECHANICS
+    // ============================
+
     public void RefillBattery()
     {
-        currentBattery = maxBattery;
-        batterySlider.value = maxBattery;
+        // Picking up a battery ALWAYS adds ammo
+        batteryAmmo++;
+
+        UpdateBatteryUI();
+    }
+
+    void ConsumeBattery()
+    {
+        if (batteryAmmo > 0)
+        {
+            batteryAmmo--;
+            currentBattery = maxBattery;
+            UpdateBatteryUI();
+        }
+        else
+        {
+            // Out of battery completely → forced real world → player dies
+            DisableCuteMode();
+            player.Respawn();
+        }
+    }
+
+    // ============================
+    //   UI UPDATES
+    // ============================
+
+    public void UpdateBatteryUI()
+    {
+        if (batteryAmmoText != null)
+            batteryAmmoText.text = "x" + batteryAmmo;
     }
 }
