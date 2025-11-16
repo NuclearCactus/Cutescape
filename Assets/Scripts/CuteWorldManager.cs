@@ -35,6 +35,8 @@ public class CuteWorldManager : MonoBehaviour
     private float originalMoveSpeed;
     private float originalJumpForce;
 
+    // This is used to disable the CuteModeDisabled sound when the game is first launched.
+    // Then it is set to false immediately and should never be touched again (in the respective scene)
     private bool firstLaunch = true;
 
     void Awake()
