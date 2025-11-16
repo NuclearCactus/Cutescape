@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2baf7873-cae0-4c16-9e90-fe9fa30c400e}">
+		<property name="assetPath">
+			<value>real-world-music-v6.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>81.729750566893429</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a0ffcccd-8bc2-4e5a-b3d7-0a205e495e4f}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -35,6 +35,10 @@ public class CuteWorldManager : MonoBehaviour
     private float originalMoveSpeed;
     private float originalJumpForce;
 
+    // This is used to disable the CuteModeDisabled sound when the game is first launched.
+    // Then it is set to false immediately and should never be touched again (in the respective scene)
+    private bool firstLaunch = true;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -154,9 +158,13 @@ public class CuteWorldManager : MonoBehaviour
             obj.SetCuteMode(false);
 
         UpdateBatteryUI();
+
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 0);
-        FMODUnity.RuntimeManager.PlayOneShot(cuteModeDisabledSound);
-        
+        if (!firstLaunch)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(cuteModeDisabledSound);
+        }
+        firstLaunch = false;
         SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOffSound);
     }
 
