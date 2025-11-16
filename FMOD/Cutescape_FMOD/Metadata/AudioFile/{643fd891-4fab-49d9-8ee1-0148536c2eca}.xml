@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{643fd891-4fab-49d9-8ee1-0148536c2eca}">
+		<property name="assetPath">
+			<value>cabin sad ending v2.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>37.190090702947849</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a0ffcccd-8bc2-4e5a-b3d7-0a205e495e4f}</destination>
+		</relationship>
+	</object>
+</objects>
