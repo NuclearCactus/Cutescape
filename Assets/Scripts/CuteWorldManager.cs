@@ -35,6 +35,8 @@ public class CuteWorldManager : MonoBehaviour
     private float originalMoveSpeed;
     private float originalJumpForce;
 
+    private bool firstLaunch = true;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -154,9 +156,13 @@ public class CuteWorldManager : MonoBehaviour
             obj.SetCuteMode(false);
 
         UpdateBatteryUI();
+
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 0);
-        FMODUnity.RuntimeManager.PlayOneShot(cuteModeDisabledSound);
-        
+        if (!firstLaunch)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(cuteModeDisabledSound);
+        }
+        firstLaunch = false;
         SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOffSound);
     }
 
