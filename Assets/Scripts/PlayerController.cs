@@ -28,15 +28,25 @@ public class PlayerController : MonoBehaviour
     private bool isWalking = false;
     private bool wasGrounded = true;
     
+    private Animator anim;
+    private SpriteRenderer sr;
+
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
         // Movement input
         moveInput = Input.GetAxisRaw("Horizontal");
+        
+        // Flip sprite
+        if (moveInput > 0) sr.flipX = false;
+        if (moveInput < 0) sr.flipX = true;
         
         // Walking SFX
         if (isGrounded)
@@ -54,7 +64,7 @@ public class PlayerController : MonoBehaviour
 
         // Ground check
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
+        
         // WALL CHECK (left and right)
         RaycastHit2D wallHitLeft  = Physics2D.Raycast(transform.position, Vector2.left,  wallCheckDistance, wallLayer);
         RaycastHit2D wallHitRight = Physics2D.Raycast(transform.position, Vector2.right, wallCheckDistance, wallLayer);
@@ -80,6 +90,7 @@ public class PlayerController : MonoBehaviour
                 // push away from wall
                 rb.linearVelocity = new Vector2(-wallDir * moveSpeed, wallJumpForce);
                 SFXManager.Instance.PlaySFX(SFXManager.Instance.jumpSound);
+                
             }
         }
 
@@ -103,7 +114,9 @@ public class PlayerController : MonoBehaviour
         {
             // only if recently in air
             if (!wasGrounded)
+            {
                 SFXManager.Instance.PlaySFX(SFXManager.Instance.jumpSound);
+            }
         }
         wasGrounded = isGrounded;
     }
@@ -112,6 +125,7 @@ public class PlayerController : MonoBehaviour
     {
         // Horizontal movement
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        anim.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
     }
 
     private void OnDrawGizmosSelected()

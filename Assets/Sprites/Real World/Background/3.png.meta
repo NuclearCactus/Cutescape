@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: ce11794616d5027418698b8d523aaee9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1232877636532430046
+    second: tree-bg_0
+  - first:
+      213: -3164991231992732459
+    second: tree-bg_1
+  - first:
+      213: -6001304692448196312
+    second: tree-bg_2
+  - first:
+      213: -7430783628198699832
+    second: tree-bg_3
+  - first:
+      213: 5285218902200536961
+    second: tree-bg_4
+  - first:
+      213: 7729927278860032331
+    second: tree-bg_5
+  - first:
+      213: 1369292189595321921
+    second: tree-bg_6
+  - first:
+      213: -2094532312533339810
+    second: tree-bg_7
+  - first:
+      213: -4711950393428973500
+    second: tree-bg_8
+  - first:
+      213: 2926798255274659876
+    second: tree-bg_9
+  - first:
+      213: -7702961036959231134
+    second: tree-bg_10
+  - first:
+      213: 888641490726627410
+    second: tree-bg_11
+  - first:
+      213: -7310158894863465774
+    second: tree-bg_12
+  - first:
+      213: -8479965219733542519
+    second: tree-bg_13
+  - first:
+      213: 3207199029736212957
+    second: tree-bg_14
+  - first:
+      213: -3499149810600719852
+    second: tree-bg_15
+  - first:
+      213: -4208145811193268847
+    second: tree-bg_16
+  - first:
+      213: 8649352263210594453
+    second: tree-bg_17
+  - first:
+      213: 7932216135396870889
+    second: tree-bg_18
+  - first:
+      213: 1506634594478076987
+    second: tree-bg_19
+  - first:
+      213: -6416557143958869814
+    second: tree-bg_20
+  - first:
+      213: 8197879237082884479
+    second: tree-bg_21
+  - first:
+      213: -2074933435603193100
+    second: tree-bg_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree-bg_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 437
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4e909adaf0c1110800000000000000
+      internalID: 1232877636532430046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 438
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4e8db4e31b314d0800000000000000
+      internalID: -3164991231992732459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_2
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 733
+        width: 117
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8298db1bd2517bca0800000000000000
+      internalID: -6001304692448196312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_3
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 945
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc9d6ef8ad80e890800000000000000
+      internalID: -7430783628198699832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 792
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fc7d9d69ed85940800000000000000
+      internalID: 5285218902200536961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_5
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 0
+        width: 520
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49dd0cb7e7364b60800000000000000
+      internalID: 7729927278860032331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 730
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146cb8addf3b00310800000000000000
+      internalID: 1369292189595321921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 715
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e517fd485f9bee2e0800000000000000
+      internalID: -2094532312533339810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_8
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 692
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4486768051acb9eb0800000000000000
+      internalID: -4711950393428973500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_9
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 683
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42011ee91831e9820800000000000000
+      internalID: 2926798255274659876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_10
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 706
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263de59bfb5991590800000000000000
+      internalID: -7702961036959231134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 647
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2582f634ab6155c00800000000000000
+      internalID: 888641490726627410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_12
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 638
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2400c47391d8a90800000000000000
+      internalID: -7310158894863465774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_13
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 628
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9896d1abf8c115a80800000000000000
+      internalID: -8479965219733542519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 614
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9876b6682428c20800000000000000
+      internalID: 3207199029736212957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_15
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 613
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ac44b59c5807fc0800000000000000
+      internalID: -3499149810600719852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_16
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 606
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195f6c03ea9a995c0800000000000000
+      internalID: -4208145811193268847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_17
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 606
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59073e1ae0ca80870800000000000000
+      internalID: 8649352263210594453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_18
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 596
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eac3f76c84e41e60800000000000000
+      internalID: 7932216135396870889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_19
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 586
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b343e226e24a8e410800000000000000
+      internalID: 1506634594478076987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_20
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 575
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac82651264fc3f6a0800000000000000
+      internalID: -6416557143958869814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_21
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 568
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7920ed5bb7b4c170800000000000000
+      internalID: 8197879237082884479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-bg_22
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 558
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f27a46a80b5433e0800000000000000
+      internalID: -2074933435603193100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tree-bg_0: 1232877636532430046
+      tree-bg_1: -3164991231992732459
+      tree-bg_10: -7702961036959231134
+      tree-bg_11: 888641490726627410
+      tree-bg_12: -7310158894863465774
+      tree-bg_13: -8479965219733542519
+      tree-bg_14: 3207199029736212957
+      tree-bg_15: -3499149810600719852
+      tree-bg_16: -4208145811193268847
+      tree-bg_17: 8649352263210594453
+      tree-bg_18: 7932216135396870889
+      tree-bg_19: 1506634594478076987
+      tree-bg_2: -6001304692448196312
+      tree-bg_20: -6416557143958869814
+      tree-bg_21: 8197879237082884479
+      tree-bg_22: -2074933435603193100
+      tree-bg_3: -7430783628198699832
+      tree-bg_4: 5285218902200536961
+      tree-bg_5: 7729927278860032331
+      tree-bg_6: 1369292189595321921
+      tree-bg_7: -2094532312533339810
+      tree-bg_8: -4711950393428973500
+      tree-bg_9: 2926798255274659876
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
