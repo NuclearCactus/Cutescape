@@ -14,6 +14,15 @@ public class CuteWorldManager : MonoBehaviour
     public TMP_Text batteryAmmoText;     // UI showing how many extra batteries
     public CuteWorldObject[] cuteObjects;
 
+    [Header("Background Arrays")]
+    public GameObject[] realWorldBackgrounds;   // Real world backgrounds
+    public GameObject[] cuteWorldBackgrounds;   // Cute world backgrounds
+    public GameObject[] brainrotWorldBackgrounds; // Brainrot world backgrounds
+
+    [Header("Platform Parents")]
+    public GameObject realWorldPlatforms;      // Parent object with real world platform visuals
+    public GameObject visibleCuteWorldPlatforms; // Parent object with cute world platform visuals
+
     [Header("Settings")]
     public float maxBattery = 5f;        // seconds per battery
     public float batteryDrainRate = 1f;  // rate per second
@@ -27,6 +36,7 @@ public class CuteWorldManager : MonoBehaviour
     public float currentBattery = 0f;    // runtime timer
     public int batteryAmmo = 0;          // stored extra batteries
     public bool isCuteMode = false;
+    public bool isBrainrotUnlocked = false; // Set to true when player enters trigger
 
     public EventReference cuteModeEnabledSound;
     public EventReference cuteModeDisabledSound;
@@ -59,6 +69,17 @@ public class CuteWorldManager : MonoBehaviour
 
         batteryUI.SetActive(false);
         UpdateBatteryUI();
+
+        // Initialize backgrounds - only Real World active at start
+        SetActiveBackgrounds(realWorldBackgrounds, true);
+        SetActiveBackgrounds(cuteWorldBackgrounds, false);
+        SetActiveBackgrounds(brainrotWorldBackgrounds, false);
+
+        // Initialize platforms - only Real World visible at start
+        if (realWorldPlatforms != null)
+            realWorldPlatforms.SetActive(true);
+        if (visibleCuteWorldPlatforms != null)
+            visibleCuteWorldPlatforms.SetActive(false);
     }
 
     void Update()
@@ -134,13 +155,15 @@ public class CuteWorldManager : MonoBehaviour
         foreach (var obj in cuteObjects)
             obj.SetCuteMode(true);
 
+        // Switch backgrounds based on brainrot unlock status
+        SwitchToAlternateWorld();
+
         UpdateBatteryUI();
 
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 1);
         FMODUnity.RuntimeManager.PlayOneShot(cuteModeEnabledSound);
         
         SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOnSound);
-
     }
 
     public void DisableCuteMode()
@@ -157,6 +180,9 @@ public class CuteWorldManager : MonoBehaviour
         foreach (var obj in cuteObjects)
             obj.SetCuteMode(false);
 
+        // Switch back to Real World backgrounds
+        SwitchToRealWorld();
+
         UpdateBatteryUI();
 
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("CuteModeEnabled", 0);
@@ -166,6 +192,74 @@ public class CuteWorldManager : MonoBehaviour
         }
         firstLaunch = false;
         SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOffSound);
+    }
+
+    // ============================
+    //   BACKGROUND SWITCHING
+    // ============================
+
+    void SwitchToAlternateWorld()
+    {
+        // Disable Real World
+        SetActiveBackgrounds(realWorldBackgrounds, false);
+
+        // Enable either Cute World or Brainrot World
+        if (isBrainrotUnlocked)
+        {
+            SetActiveBackgrounds(cuteWorldBackgrounds, false);
+            SetActiveBackgrounds(brainrotWorldBackgrounds, true);
+            Debug.Log("Switched to Brainrot World backgrounds");
+        }
+        else
+        {
+            SetActiveBackgrounds(cuteWorldBackgrounds, true);
+            SetActiveBackgrounds(brainrotWorldBackgrounds, false);
+            Debug.Log("Switched to Cute World backgrounds");
+        }
+
+        // Switch platform visuals to Cute World
+        if (realWorldPlatforms != null)
+            realWorldPlatforms.SetActive(false);
+        if (visibleCuteWorldPlatforms != null)
+            visibleCuteWorldPlatforms.SetActive(true);
+    }
+
+    void SwitchToRealWorld()
+    {
+        // Enable Real World, disable everything else
+        SetActiveBackgrounds(realWorldBackgrounds, true);
+        SetActiveBackgrounds(cuteWorldBackgrounds, false);
+        SetActiveBackgrounds(brainrotWorldBackgrounds, false);
+        Debug.Log("Switched to Real World backgrounds");
+
+        // Switch platform visuals back to Real World
+        if (realWorldPlatforms != null)
+            realWorldPlatforms.SetActive(true);
+        if (visibleCuteWorldPlatforms != null)
+            visibleCuteWorldPlatforms.SetActive(false);
+    }
+
+    void SetActiveBackgrounds(GameObject[] backgrounds, bool active)
+    {
+        if (backgrounds == null) return;
+
+        foreach (GameObject bg in backgrounds)
+        {
+            if (bg != null)
+            {
+                bg.SetActive(active);
+            }
+        }
+    }
+
+    // ============================
+    //   PUBLIC METHOD FOR TRIGGER
+    // ============================
+
+    public void UnlockBrainrotWorld()
+    {
+        isBrainrotUnlocked = true;
+        Debug.Log("Brainrot World unlocked!");
     }
 
     // ============================

@@ -1,0 +1,3926 @@
+fileFormatVersion: 2
+guid: 8ecb2f75643dc164d915a58b9dd9957e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7428734843865124152
+    second: pink-mist_0
+  - first:
+      213: -795543332641493182
+    second: pink-mist_1
+  - first:
+      213: 7903579924523523829
+    second: pink-mist_2
+  - first:
+      213: 2628886637117519580
+    second: pink-mist_3
+  - first:
+      213: -6252511900543933174
+    second: pink-mist_4
+  - first:
+      213: 8230866479095305956
+    second: pink-mist_5
+  - first:
+      213: -3306017946826615454
+    second: pink-mist_6
+  - first:
+      213: 65557909430102327
+    second: pink-mist_7
+  - first:
+      213: 1989183515746638262
+    second: pink-mist_8
+  - first:
+      213: -8151572310541224757
+    second: pink-mist_9
+  - first:
+      213: 2408978725112033664
+    second: pink-mist_10
+  - first:
+      213: -438049606699661866
+    second: pink-mist_11
+  - first:
+      213: 9095338841966682931
+    second: pink-mist_12
+  - first:
+      213: -358614047948243529
+    second: pink-mist_13
+  - first:
+      213: -7689572169026779127
+    second: pink-mist_14
+  - first:
+      213: 3878193340775408181
+    second: pink-mist_15
+  - first:
+      213: 1925719652509159384
+    second: pink-mist_16
+  - first:
+      213: 3661647325514810284
+    second: pink-mist_17
+  - first:
+      213: -3872938205140127250
+    second: pink-mist_18
+  - first:
+      213: -6727280142653510825
+    second: pink-mist_19
+  - first:
+      213: -214537203422431472
+    second: pink-mist_20
+  - first:
+      213: -1509674891362956427
+    second: pink-mist_21
+  - first:
+      213: -7160492415171177468
+    second: pink-mist_22
+  - first:
+      213: -152528940697742214
+    second: pink-mist_23
+  - first:
+      213: -3741377163077140918
+    second: pink-mist_24
+  - first:
+      213: -6472109026827739607
+    second: pink-mist_25
+  - first:
+      213: -3009042291268089693
+    second: pink-mist_26
+  - first:
+      213: -5726270230609286348
+    second: pink-mist_27
+  - first:
+      213: -6364256927824001874
+    second: pink-mist_28
+  - first:
+      213: -2317353767335184281
+    second: pink-mist_29
+  - first:
+      213: -68139556802281967
+    second: pink-mist_30
+  - first:
+      213: 610677501879110092
+    second: pink-mist_31
+  - first:
+      213: 1254859536251328025
+    second: pink-mist_32
+  - first:
+      213: 8958454720547474564
+    second: pink-mist_33
+  - first:
+      213: -7448716832359934497
+    second: pink-mist_34
+  - first:
+      213: 5926650034768376630
+    second: pink-mist_35
+  - first:
+      213: 8457655245580184207
+    second: pink-mist_36
+  - first:
+      213: 8892837273039325809
+    second: pink-mist_37
+  - first:
+      213: -1472144418639486606
+    second: pink-mist_38
+  - first:
+      213: -35259213209539763
+    second: pink-mist_39
+  - first:
+      213: -1171072924976175148
+    second: pink-mist_40
+  - first:
+      213: 4310570269720925159
+    second: pink-mist_41
+  - first:
+      213: 7534236320673454999
+    second: pink-mist_42
+  - first:
+      213: -3034001569191936669
+    second: pink-mist_43
+  - first:
+      213: -4334305650387972403
+    second: pink-mist_44
+  - first:
+      213: -5272816179359979449
+    second: pink-mist_45
+  - first:
+      213: 5552709703194463490
+    second: pink-mist_46
+  - first:
+      213: 3281984749489682443
+    second: pink-mist_47
+  - first:
+      213: -5247378402316892936
+    second: pink-mist_48
+  - first:
+      213: -1840322859002812083
+    second: pink-mist_49
+  - first:
+      213: -9184234361814671980
+    second: pink-mist_50
+  - first:
+      213: -112166154494358191
+    second: pink-mist_51
+  - first:
+      213: 2978905742866050909
+    second: pink-mist_52
+  - first:
+      213: 3622106708612754667
+    second: pink-mist_53
+  - first:
+      213: 9016771664156380642
+    second: pink-mist_54
+  - first:
+      213: 5733520470207380646
+    second: pink-mist_55
+  - first:
+      213: -351737676974389876
+    second: pink-mist_56
+  - first:
+      213: -2421506735919220499
+    second: pink-mist_57
+  - first:
+      213: 1801658162953108665
+    second: pink-mist_58
+  - first:
+      213: 8143943703970312455
+    second: pink-mist_59
+  - first:
+      213: -6503052796895254269
+    second: pink-mist_60
+  - first:
+      213: 1850371140665868874
+    second: pink-mist_61
+  - first:
+      213: 9186590084702790743
+    second: pink-mist_62
+  - first:
+      213: -1787619355306412711
+    second: pink-mist_63
+  - first:
+      213: -6784979588982675938
+    second: pink-mist_64
+  - first:
+      213: 8796425260238754383
+    second: pink-mist_65
+  - first:
+      213: -7419639736056658692
+    second: pink-mist_66
+  - first:
+      213: 7522854502048737792
+    second: pink-mist_67
+  - first:
+      213: -965940659206937596
+    second: pink-mist_68
+  - first:
+      213: -1972461121214408520
+    second: pink-mist_69
+  - first:
+      213: -2485299057393302503
+    second: pink-mist_70
+  - first:
+      213: 3116430201564601065
+    second: pink-mist_71
+  - first:
+      213: 7949709464596606085
+    second: pink-mist_72
+  - first:
+      213: 4849457108926573759
+    second: pink-mist_73
+  - first:
+      213: 2239086973335915348
+    second: pink-mist_74
+  - first:
+      213: 4308659302025849009
+    second: pink-mist_75
+  - first:
+      213: 4622974769253065474
+    second: pink-mist_76
+  - first:
+      213: 2465952034976046705
+    second: pink-mist_77
+  - first:
+      213: 2765369213916643293
+    second: pink-mist_78
+  - first:
+      213: -8082296786396325020
+    second: pink-mist_79
+  - first:
+      213: -8832514544405189541
+    second: pink-mist_80
+  - first:
+      213: 5179349148828194540
+    second: pink-mist_81
+  - first:
+      213: -5280988336040761348
+    second: pink-mist_82
+  - first:
+      213: 4953785640050219051
+    second: pink-mist_83
+  - first:
+      213: 6661152218235732879
+    second: pink-mist_84
+  - first:
+      213: -4492149084083320384
+    second: pink-mist_85
+  - first:
+      213: 247801670517671945
+    second: pink-mist_86
+  - first:
+      213: 7464864129318113949
+    second: pink-mist_87
+  - first:
+      213: -2526223797596835845
+    second: pink-mist_88
+  - first:
+      213: -5345457191863410435
+    second: pink-mist_89
+  - first:
+      213: -4701400829628521899
+    second: pink-mist_90
+  - first:
+      213: -6724533187360647390
+    second: pink-mist_91
+  - first:
+      213: 129926679828991068
+    second: pink-mist_92
+  - first:
+      213: -4253114497979036270
+    second: pink-mist_93
+  - first:
+      213: 5944910506329617600
+    second: pink-mist_94
+  - first:
+      213: -3529762667608189062
+    second: pink-mist_95
+  - first:
+      213: -1909613656148975367
+    second: pink-mist_96
+  - first:
+      213: 2043228790042432879
+    second: pink-mist_97
+  - first:
+      213: 4246424290420098886
+    second: pink-mist_98
+  - first:
+      213: 8279055255359732733
+    second: pink-mist_99
+  - first:
+      213: -755164927841876187
+    second: pink-mist_100
+  - first:
+      213: -1753227036319317602
+    second: pink-mist_101
+  - first:
+      213: 8789397340022697056
+    second: pink-mist_102
+  - first:
+      213: 5463857691071601610
+    second: pink-mist_103
+  - first:
+      213: 8518624995569059632
+    second: pink-mist_104
+  - first:
+      213: 6939413395510842664
+    second: pink-mist_105
+  - first:
+      213: 1430808459971883727
+    second: pink-mist_106
+  - first:
+      213: 5707702581288033204
+    second: pink-mist_107
+  - first:
+      213: 5228166444641403122
+    second: pink-mist_108
+  - first:
+      213: -3643098909815330170
+    second: pink-mist_109
+  - first:
+      213: 101549428030210860
+    second: pink-mist_110
+  - first:
+      213: -9198847053199039483
+    second: pink-mist_111
+  - first:
+      213: -6208370944753476207
+    second: pink-mist_112
+  - first:
+      213: 146210520271222485
+    second: pink-mist_113
+  - first:
+      213: 3990170412129046774
+    second: pink-mist_114
+  - first:
+      213: 376205586253006474
+    second: pink-mist_115
+  - first:
+      213: -2154826626666321264
+    second: pink-mist_116
+  - first:
+      213: 4285548173182803803
+    second: pink-mist_117
+  - first:
+      213: -6949951435095295851
+    second: pink-mist_118
+  - first:
+      213: -2839569293427537965
+    second: pink-mist_119
+  - first:
+      213: -4259046568893033600
+    second: pink-mist_120
+  - first:
+      213: -1184105682429431690
+    second: pink-mist_121
+  - first:
+      213: -7986847653754699537
+    second: pink-mist_122
+  - first:
+      213: 3980020771068624613
+    second: pink-mist_123
+  - first:
+      213: -1197941391502747981
+    second: pink-mist_124
+  - first:
+      213: 8088694738181538758
+    second: pink-mist_125
+  - first:
+      213: 4537429818648513934
+    second: pink-mist_126
+  - first:
+      213: -4155233335573657352
+    second: pink-mist_127
+  - first:
+      213: -4847150848892928664
+    second: pink-mist_128
+  - first:
+      213: 3190270623053807216
+    second: pink-mist_129
+  - first:
+      213: 933622340098280266
+    second: pink-mist_130
+  - first:
+      213: 2492432186286006015
+    second: pink-mist_131
+  - first:
+      213: -8209155152877400397
+    second: pink-mist_132
+  - first:
+      213: 444862144900340319
+    second: pink-mist_133
+  - first:
+      213: 4133886010123095688
+    second: pink-mist_134
+  - first:
+      213: -6920324224655533617
+    second: pink-mist_135
+  - first:
+      213: -678413855356857767
+    second: pink-mist_136
+  - first:
+      213: -885867076208649485
+    second: pink-mist_137
+  - first:
+      213: 147783747883336711
+    second: pink-mist_138
+  - first:
+      213: -23761119141284927
+    second: pink-mist_139
+  - first:
+      213: -3839964069518524951
+    second: pink-mist_140
+  - first:
+      213: 7126741051053403654
+    second: pink-mist_141
+  - first:
+      213: 3734764104480080684
+    second: pink-mist_142
+  - first:
+      213: -5533215157194508846
+    second: pink-mist_143
+  - first:
+      213: 2339040875560938046
+    second: pink-mist_144
+  - first:
+      213: -6860531820923481132
+    second: pink-mist_145
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pink-mist_0
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1054
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c23ad4c405d7e890800000000000000
+      internalID: -7428734843865124152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_1
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1055
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f297ecd89a5f4f0800000000000000
+      internalID: -795543332641493182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_2
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1070
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe122ff0182fad60800000000000000
+      internalID: 7903579924523523829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_3
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1052
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd63920d77eab7420800000000000000
+      internalID: 2628886637117519580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_4
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1068
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a052d2ebd8d9a39a0800000000000000
+      internalID: -6252511900543933174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_5
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1063
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e655282479e93270800000000000000
+      internalID: 8230866479095305956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_6
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1061
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2655552813aae12d0800000000000000
+      internalID: -3306017946826615454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_7
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1073
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7396ccf3298e8e000800000000000000
+      internalID: 65557909430102327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_8
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 1062
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b914215edffa9b10800000000000000
+      internalID: 1989183515746638262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_9
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1072
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4b7452c2ccfde80800000000000000
+      internalID: -8151572310541224757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_10
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1069
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081b6cd13696e6120800000000000000
+      internalID: 2408978725112033664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_11
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1069
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5caae143cbbe9f0800000000000000
+      internalID: -438049606699661866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_12
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1064
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333ac33dc72293e70800000000000000
+      internalID: 9095338841966682931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_13
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1074
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd74946c62f50bf0800000000000000
+      internalID: -358614047948243529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_14
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1066
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908cd667ad6294590800000000000000
+      internalID: -7689572169026779127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_15
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1057
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532243fbb4c12d530800000000000000
+      internalID: 3878193340775408181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_16
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1060
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df0cc032d789ba10800000000000000
+      internalID: 1925719652509159384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_17
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1057
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3c112a7d8c0d230800000000000000
+      internalID: 3661647325514810284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_18
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1063
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1759dd83f804ac0800000000000000
+      internalID: -3872938205140127250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_19
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b29985a56e3a2a0800000000000000
+      internalID: -6727280142653510825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_20
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1063
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01776e6dc8fc50df0800000000000000
+      internalID: -214537203422431472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_21
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1062
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b0cf55fae8c0be0800000000000000
+      internalID: -1509674891362956427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_22
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1062
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404d7d81612d0ac90800000000000000
+      internalID: -7160492415171177468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_23
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1060
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a749ebf8cbb12edf0800000000000000
+      internalID: -152528940697742214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_24
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1060
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e3708fa45f31cc0800000000000000
+      internalID: -3741377163077140918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_25
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1055
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e555c71237e26a0800000000000000
+      internalID: -6472109026827739607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_26
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1053
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a886da8afbbd36d0800000000000000
+      internalID: -3009042291268089693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_27
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 1028
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ba3a870933880b0800000000000000
+      internalID: -5726270230609286348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_28
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1053
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea44bbd1b0e9da7a0800000000000000
+      internalID: -6364256927824001874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_29
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1050
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768b217c60b17dfd0800000000000000
+      internalID: -2317353767335184281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_30
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1054
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11eb5a12f6bed0ff0800000000000000
+      internalID: -68139556802281967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_31
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1051
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9c3d3d3ff897800800000000000000
+      internalID: 610677501879110092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_32
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1049
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916954589182a6110800000000000000
+      internalID: 1254859536251328025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_33
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1050
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c47aaba13d25c70800000000000000
+      internalID: 8958454720547474564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_34
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1058
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd596b68187d0a890800000000000000
+      internalID: -7448716832359934497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_35
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1054
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633fc6e4ec0bf3250800000000000000
+      internalID: 5926650034768376630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_36
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1021
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8aa681a2a0af5570800000000000000
+      internalID: 8457655245580184207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_37
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1031
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17accd03264b96b70800000000000000
+      internalID: 8892837273039325809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_38
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1032
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2716be47374e19be0800000000000000
+      internalID: -1472144418639486606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_39
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1044
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4be591beebb28ff0800000000000000
+      internalID: -35259213209539763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1044
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7a7bc11638fbfe0800000000000000
+      internalID: -1171072924976175148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_41
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1051
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3531a62d832db30800000000000000
+      internalID: 4310570269720925159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_42
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1044
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b569bf30cfe8860800000000000000
+      internalID: 7534236320673454999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_43
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1048
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d365cc5af05e5d0800000000000000
+      internalID: -3034001569191936669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_44
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1017
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce08a0a9f379d3c0800000000000000
+      internalID: -4334305650387972403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_45
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1044
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748e0571f9133d6b0800000000000000
+      internalID: -5272816179359979449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_46
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1049
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d45c73e003f0d40800000000000000
+      internalID: 5552709703194463490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_47
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1039
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08f49fadb3fb8d20800000000000000
+      internalID: 3281984749489682443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_48
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1044
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f448d715219d27b0800000000000000
+      internalID: -5247378402316892936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_49
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1026
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d492b153c1cd576e0800000000000000
+      internalID: -1840322859002812083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_50
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1024
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d9912128b0b8080800000000000000
+      internalID: -9184234361814671980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_51
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1031
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dca8d0a71817ef0800000000000000
+      internalID: -112166154494358191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_52
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1038
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fe6ee7df2375920800000000000000
+      internalID: 2978905742866050909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_53
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1031
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec2c695cde444230800000000000000
+      internalID: 3622106708612754667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_54
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1042
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed49de3e02022d70800000000000000
+      internalID: 9016771664156380642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_55
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1039
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac342b7d7e819f40800000000000000
+      internalID: 5733520470207380646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_56
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1039
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8502d542706e1bf0800000000000000
+      internalID: -351737676974389876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_57
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1037
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8b1501474156ed0800000000000000
+      internalID: -2421506735919220499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_58
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1027
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb089bd86c00910800000000000000
+      internalID: 1801658162953108665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_59
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1030
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701fde976a9150170800000000000000
+      internalID: 8143943703970312455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_60
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1017
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309a2759fe380c5a0800000000000000
+      internalID: -6503052796895254269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_61
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1002
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42060eafb6dda910800000000000000
+      internalID: 1850371140665868874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_62
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1027
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754e5d762035d7f70800000000000000
+      internalID: 9186590084702790743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_63
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1017
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9553955eaa91137e0800000000000000
+      internalID: -1787619355306412711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_64
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1011
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16696e1309e6d1a0800000000000000
+      internalID: -6784979588982675938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_65
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1032
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42ddc13b2e231a70800000000000000
+      internalID: 8796425260238754383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_66
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1024
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf448f298f4280990800000000000000
+      internalID: -7419639736056658692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_67
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1027
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a2093df4c866860800000000000000
+      internalID: 7522854502048737792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_68
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1025
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4042dd5961a4892f0800000000000000
+      internalID: -965940659206937596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_69
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1008
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b81fb09f0960a4e0800000000000000
+      internalID: -1972461121214408520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_70
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1014
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914857bcca1728dd0800000000000000
+      internalID: -2485299057393302503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_71
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1004
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea9e8bb1c8cf3b20800000000000000
+      internalID: 3116430201564601065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_72
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1001
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c67d083aa035e60800000000000000
+      internalID: 7949709464596606085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_73
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1005
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcaf0b0c8bbc4340800000000000000
+      internalID: 4849457108926573759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_74
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 973
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b44e23db5d21f10800000000000000
+      internalID: 2239086973335915348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_75
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1013
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8ee639ece6bcb30800000000000000
+      internalID: 4308659302025849009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_76
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1011
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2032cee1f0b182040800000000000000
+      internalID: 4622974769253065474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_77
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1009
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e16e58f42d83220800000000000000
+      internalID: 2465952034976046705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_78
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1003
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf7d4406a0906620800000000000000
+      internalID: 2765369213916643293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_79
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1006
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bd09505e9e5df80800000000000000
+      internalID: -8082296786396325020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_80
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 998
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ce14b81da9c6580800000000000000
+      internalID: -8832514544405189541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_81
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1014
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce650a70c9eb0e740800000000000000
+      internalID: 5179349148828194540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_82
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1012
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72f47961926b6b0800000000000000
+      internalID: -5280988336040761348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_83
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1008
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28df981bc16fb440800000000000000
+      internalID: 4953785640050219051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_84
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1017
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f830fb276aa217c50800000000000000
+      internalID: 6661152218235732879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_85
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1001
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c90e1d553ea8a1c0800000000000000
+      internalID: -4492149084083320384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_86
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1009
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90844f17e4e507300800000000000000
+      internalID: 247801670517671945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_87
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1005
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92df840066889760800000000000000
+      internalID: 7464864129318113949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_88
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 984
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff2a1137dc01fcd0800000000000000
+      internalID: -2526223797596835845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_89
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ace4610f11d5b0800000000000000
+      internalID: -5345457191863410435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_90
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1001
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552e343cad441ceb0800000000000000
+      internalID: -4701400829628521899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_91
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1003
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2271b07b1b8ada2a0800000000000000
+      internalID: -6724533187360647390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_92
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 998
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c8d0e70a79dc100800000000000000
+      internalID: 129926679828991068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_93
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 991
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d45e6e5e6e9f4c0800000000000000
+      internalID: -4253114497979036270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_94
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 995
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4b347ab90908250800000000000000
+      internalID: 5944910506329617600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_95
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 987
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7757c72e83c30fc0800000000000000
+      internalID: -3529762667608189062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_96
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 994
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0610f4f70bf75e0800000000000000
+      internalID: -1909613656148975367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_97
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 998
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65945152c10b5c10800000000000000
+      internalID: 2043228790042432879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_98
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 992
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6478414c4645eea30800000000000000
+      internalID: 4246424290420098886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_99
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 997
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb3c83f3ec15e270800000000000000
+      internalID: 8279055255359732733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_100
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 969
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527c629cf7d1585f0800000000000000
+      internalID: -755164927841876187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_101
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 991
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e918399ac494ba7e0800000000000000
+      internalID: -1753227036319317602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_102
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 988
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ce0d100563af970800000000000000
+      internalID: 8789397340022697056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_103
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 983
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbdb9b0f9583db40800000000000000
+      internalID: 5463857691071601610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_104
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 982
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03748a3cc4c383670800000000000000
+      internalID: 8518624995569059632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_105
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 983
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825d20577bfbd4060800000000000000
+      internalID: 6939413395510842664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_106
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 980
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc27f3ea6b04bd310800000000000000
+      internalID: 1430808459971883727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_107
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 991
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbd049c145d53f40800000000000000
+      internalID: 5707702581288033204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_108
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 957
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0c77f6ead2e8840800000000000000
+      internalID: 5228166444641403122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_109
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 957
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a28dee7dc117dc0800000000000000
+      internalID: -3643098909815330170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_110
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 983
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2382e0baa6c86100800000000000000
+      internalID: 101549428030210860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_111
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 979
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5042ceab751275080800000000000000
+      internalID: -9198847053199039483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_112
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 958
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ddc14e48f67d9a0800000000000000
+      internalID: -6208370944753476207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_113
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 970
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6f03b81b1770200800000000000000
+      internalID: 146210520271222485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_114
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 960
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0d93859deef5730800000000000000
+      internalID: 3990170412129046774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_115
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 982
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86c02bccfc883500800000000000000
+      internalID: 376205586253006474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_116
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 961
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a200d89948812e0800000000000000
+      internalID: -2154826626666321264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_117
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 987
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f92629b53597b30800000000000000
+      internalID: 4285548173182803803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_118
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 962
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598bde00effcc8f90800000000000000
+      internalID: -6949951435095295851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_119
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 985
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d70526b5c2d798d0800000000000000
+      internalID: -2839569293427537965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_120
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 957
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083d84306b3d4e4c0800000000000000
+      internalID: -4259046568893033600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_121
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 977
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670b54ec726319fe0800000000000000
+      internalID: -1184105682429431690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_122
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 973
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe00ac20064092190800000000000000
+      internalID: -7986847653754699537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_123
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 957
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeb832edcfdb3730800000000000000
+      internalID: 3980020771068624613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_124
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 978
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6ddb1c6ae006fe0800000000000000
+      internalID: -1197941391502747981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_125
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 966
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3c1e53201d04070800000000000000
+      internalID: 8088694738181538758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_126
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 976
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d4fc5316038fe30800000000000000
+      internalID: 4537429818648513934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_127
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 968
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f84542fb45a556c0800000000000000
+      internalID: -4155233335573657352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_128
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 960
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86df007fbf57bbcb0800000000000000
+      internalID: -4847150848892928664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_129
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 960
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e7c789a3e164c20800000000000000
+      internalID: 3190270623053807216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_130
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 970
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b4def5294e4fc00800000000000000
+      internalID: 933622340098280266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_131
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 966
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffed3523ed5e69220800000000000000
+      internalID: 2492432186286006015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_132
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 984
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3becca6e1e8331e80800000000000000
+      internalID: -8209155152877400397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_133
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 975
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a9dc883c77c2600800000000000000
+      internalID: 444862144900340319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_134
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 965
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e08578c638e5930800000000000000
+      internalID: 4133886010123095688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_135
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 964
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc950ea78c116ff90800000000000000
+      internalID: -6920324224655533617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_136
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 969
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95250c4613ac596f0800000000000000
+      internalID: -678413855356857767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_137
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 970
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa9e547694c4b3f0800000000000000
+      internalID: -885867076208649485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_138
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 812
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704892429880d0200800000000000000
+      internalID: 147783747883336711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_139
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 850
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c33e1653659baff0800000000000000
+      internalID: -23761119141284927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_140
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 852
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edb5161605b5bac0800000000000000
+      internalID: -3839964069518524951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_141
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 855
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6b321a3547e260800000000000000
+      internalID: 7126741051053403654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2000
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c234a675a2c84d330800000000000000
+      internalID: 3734764104480080684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_143
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 691
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d53d9971221633b0800000000000000
+      internalID: -5533215157194508846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_144
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 696
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aade69841f57020800000000000000
+      internalID: 2339040875560938046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink-mist_145
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 688
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3979358ae7ac0a0800000000000000
+      internalID: -6860531820923481132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pink-mist_0: -7428734843865124152
+      pink-mist_1: -795543332641493182
+      pink-mist_10: 2408978725112033664
+      pink-mist_100: -755164927841876187
+      pink-mist_101: -1753227036319317602
+      pink-mist_102: 8789397340022697056
+      pink-mist_103: 5463857691071601610
+      pink-mist_104: 8518624995569059632
+      pink-mist_105: 6939413395510842664
+      pink-mist_106: 1430808459971883727
+      pink-mist_107: 5707702581288033204
+      pink-mist_108: 5228166444641403122
+      pink-mist_109: -3643098909815330170
+      pink-mist_11: -438049606699661866
+      pink-mist_110: 101549428030210860
+      pink-mist_111: -9198847053199039483
+      pink-mist_112: -6208370944753476207
+      pink-mist_113: 146210520271222485
+      pink-mist_114: 3990170412129046774
+      pink-mist_115: 376205586253006474
+      pink-mist_116: -2154826626666321264
+      pink-mist_117: 4285548173182803803
+      pink-mist_118: -6949951435095295851
+      pink-mist_119: -2839569293427537965
+      pink-mist_12: 9095338841966682931
+      pink-mist_120: -4259046568893033600
+      pink-mist_121: -1184105682429431690
+      pink-mist_122: -7986847653754699537
+      pink-mist_123: 3980020771068624613
+      pink-mist_124: -1197941391502747981
+      pink-mist_125: 8088694738181538758
+      pink-mist_126: 4537429818648513934
+      pink-mist_127: -4155233335573657352
+      pink-mist_128: -4847150848892928664
+      pink-mist_129: 3190270623053807216
+      pink-mist_13: -358614047948243529
+      pink-mist_130: 933622340098280266
+      pink-mist_131: 2492432186286006015
+      pink-mist_132: -8209155152877400397
+      pink-mist_133: 444862144900340319
+      pink-mist_134: 4133886010123095688
+      pink-mist_135: -6920324224655533617
+      pink-mist_136: -678413855356857767
+      pink-mist_137: -885867076208649485
+      pink-mist_138: 147783747883336711
+      pink-mist_139: -23761119141284927
+      pink-mist_14: -7689572169026779127
+      pink-mist_140: -3839964069518524951
+      pink-mist_141: 7126741051053403654
+      pink-mist_142: 3734764104480080684
+      pink-mist_143: -5533215157194508846
+      pink-mist_144: 2339040875560938046
+      pink-mist_145: -6860531820923481132
+      pink-mist_15: 3878193340775408181
+      pink-mist_16: 1925719652509159384
+      pink-mist_17: 3661647325514810284
+      pink-mist_18: -3872938205140127250
+      pink-mist_19: -6727280142653510825
+      pink-mist_2: 7903579924523523829
+      pink-mist_20: -214537203422431472
+      pink-mist_21: -1509674891362956427
+      pink-mist_22: -7160492415171177468
+      pink-mist_23: -152528940697742214
+      pink-mist_24: -3741377163077140918
+      pink-mist_25: -6472109026827739607
+      pink-mist_26: -3009042291268089693
+      pink-mist_27: -5726270230609286348
+      pink-mist_28: -6364256927824001874
+      pink-mist_29: -2317353767335184281
+      pink-mist_3: 2628886637117519580
+      pink-mist_30: -68139556802281967
+      pink-mist_31: 610677501879110092
+      pink-mist_32: 1254859536251328025
+      pink-mist_33: 8958454720547474564
+      pink-mist_34: -7448716832359934497
+      pink-mist_35: 5926650034768376630
+      pink-mist_36: 8457655245580184207
+      pink-mist_37: 8892837273039325809
+      pink-mist_38: -1472144418639486606
+      pink-mist_39: -35259213209539763
+      pink-mist_4: -6252511900543933174
+      pink-mist_40: -1171072924976175148
+      pink-mist_41: 4310570269720925159
+      pink-mist_42: 7534236320673454999
+      pink-mist_43: -3034001569191936669
+      pink-mist_44: -4334305650387972403
+      pink-mist_45: -5272816179359979449
+      pink-mist_46: 5552709703194463490
+      pink-mist_47: 3281984749489682443
+      pink-mist_48: -5247378402316892936
+      pink-mist_49: -1840322859002812083
+      pink-mist_5: 8230866479095305956
+      pink-mist_50: -9184234361814671980
+      pink-mist_51: -112166154494358191
+      pink-mist_52: 2978905742866050909
+      pink-mist_53: 3622106708612754667
+      pink-mist_54: 9016771664156380642
+      pink-mist_55: 5733520470207380646
+      pink-mist_56: -351737676974389876
+      pink-mist_57: -2421506735919220499
+      pink-mist_58: 1801658162953108665
+      pink-mist_59: 8143943703970312455
+      pink-mist_6: -3306017946826615454
+      pink-mist_60: -6503052796895254269
+      pink-mist_61: 1850371140665868874
+      pink-mist_62: 9186590084702790743
+      pink-mist_63: -1787619355306412711
+      pink-mist_64: -6784979588982675938
+      pink-mist_65: 8796425260238754383
+      pink-mist_66: -7419639736056658692
+      pink-mist_67: 7522854502048737792
+      pink-mist_68: -965940659206937596
+      pink-mist_69: -1972461121214408520
+      pink-mist_7: 65557909430102327
+      pink-mist_70: -2485299057393302503
+      pink-mist_71: 3116430201564601065
+      pink-mist_72: 7949709464596606085
+      pink-mist_73: 4849457108926573759
+      pink-mist_74: 2239086973335915348
+      pink-mist_75: 4308659302025849009
+      pink-mist_76: 4622974769253065474
+      pink-mist_77: 2465952034976046705
+      pink-mist_78: 2765369213916643293
+      pink-mist_79: -8082296786396325020
+      pink-mist_8: 1989183515746638262
+      pink-mist_80: -8832514544405189541
+      pink-mist_81: 5179349148828194540
+      pink-mist_82: -5280988336040761348
+      pink-mist_83: 4953785640050219051
+      pink-mist_84: 6661152218235732879
+      pink-mist_85: -4492149084083320384
+      pink-mist_86: 247801670517671945
+      pink-mist_87: 7464864129318113949
+      pink-mist_88: -2526223797596835845
+      pink-mist_89: -5345457191863410435
+      pink-mist_9: -8151572310541224757
+      pink-mist_90: -4701400829628521899
+      pink-mist_91: -6724533187360647390
+      pink-mist_92: 129926679828991068
+      pink-mist_93: -4253114497979036270
+      pink-mist_94: 5944910506329617600
+      pink-mist_95: -3529762667608189062
+      pink-mist_96: -1909613656148975367
+      pink-mist_97: 2043228790042432879
+      pink-mist_98: 4246424290420098886
+      pink-mist_99: 8279055255359732733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

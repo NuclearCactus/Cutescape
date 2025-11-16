@@ -50,9 +50,9 @@ public class ConnectionTracker : MonoBehaviour
     public void UpdateUI()
     {
         if (realWorldTextUI != null)
-            realWorldTextUI.text = "Real: " + realWorldConnections;
+            realWorldTextUI.text = " " + realWorldConnections;
 
         if (cuteWorldTextUI != null)
-            cuteWorldTextUI.text = "Cute: " + cuteWorldConnections;
+            cuteWorldTextUI.text = " " + cuteWorldConnections;
     }
 }

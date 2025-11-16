@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu Sound.unity
+    guid: a75190d09d02c4ab3acc498d7075987c
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: cc0f691713e07d849b0d21e58da8f9e1
+  - enabled: 1
+    path: Assets/Scenes/GoodEndingVideoScene Sound.unity
+    guid: 6fe803887de9e46629e313edb27c2130
+  - enabled: 1
+    path: Assets/Scenes/BadEndingVideoScene Sound.unity
+    guid: c51cbcff837534774937fd7358f53d51
+  - enabled: 0
     path: Assets/Scenes/SampleScene_B.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
