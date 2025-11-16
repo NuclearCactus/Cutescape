@@ -42,5 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 1City
+    uniqueID: 4290922357
+    locked: 0
+  - name: 2Smog
+    uniqueID: 3819676811
+    locked: 0
+  - name: 3Trees
+    uniqueID: 1233241807
+    locked: 0
+  - name: Player
+    uniqueID: 2176243231
+    locked: 0
+  - name: 4Blocks
+    uniqueID: 240084473
+    locked: 0
   m_RenderingLayers:
   - Default
