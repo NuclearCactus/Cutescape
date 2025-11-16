@@ -3,25 +3,40 @@ using UnityEngine;
 
 public class BackgroundController : MonoBehaviour
 {
-    public float startPos, length;
+    [Header("Horizontal Parallax")]
+    public float startPos;
+    public float length;
     public GameObject cam;
     public float parallaxEffect; // speed at which bg moves relative to cam
+    
+    [Header("Vertical Parallax")]
+    public float verticalParallaxEffect = 0.5f; // 0 = no vertical movement, 1 = moves with camera
+    public float minYPosition = -10f; // Minimum Y position (bottom of game world)
+    public float maxYPosition = 50f;  // Maximum Y position (top of game world)
+    
+    private float startYPos;
 
     private void Start()
     {
         startPos = transform.position.x;
+        startYPos = transform.position.y;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     void FixedUpdate()
     {
-        // Calculate distance background moves based on cam movement
-        float distance = cam.transform.position.x * parallaxEffect; // 0 = move with cam, 1 = can't move
+        // HORIZONTAL PARALLAX (existing code)
+        float distance = cam.transform.position.x * parallaxEffect;
         float movement = cam.transform.position.x * (1 - parallaxEffect);
         
-        transform.position = new Vector3(startPos + distance, transform.position.y, transform.position.z);
+        // VERTICAL PARALLAX (new)
+        float verticalDistance = cam.transform.position.y * verticalParallaxEffect;
+        float clampedY = Mathf.Clamp(startYPos + verticalDistance, minYPosition, maxYPosition);
         
-        // If bg has reached end of its length, adjust its position for infinite scrolling
+        // Apply both horizontal and vertical positioning
+        transform.position = new Vector3(startPos + distance, clampedY, transform.position.z);
+        
+        // Infinite horizontal scrolling (existing code)
         if (movement > startPos + length)
         {
             startPos += length;
