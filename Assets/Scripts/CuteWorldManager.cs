@@ -23,6 +23,10 @@ public class CuteWorldManager : MonoBehaviour
     public GameObject realWorldPlatforms;      // Parent object with real world platform visuals
     public GameObject visibleCuteWorldPlatforms; // Parent object with cute world platform visuals
 
+    [Header("Tilemaps")]
+    public UnityEngine.Tilemaps.Tilemap realWorldTilemap;        // Real world tilemap
+    public UnityEngine.Tilemaps.Tilemap cuteWorldTilemap;        // Cute world tilemap
+
     [Header("Settings")]
     public float maxBattery = 5f;        // seconds per battery
     public float batteryDrainRate = 1f;  // rate per second
@@ -222,7 +226,11 @@ public class CuteWorldManager : MonoBehaviour
             realWorldPlatforms.SetActive(false);
         if (visibleCuteWorldPlatforms != null)
             visibleCuteWorldPlatforms.SetActive(true);
-    }
+
+        // Switch tilemaps
+        realWorldTilemap.gameObject.SetActive(false);
+        cuteWorldTilemap.gameObject.SetActive(true);
+    }   
 
     void SwitchToRealWorld()
     {
@@ -237,6 +245,10 @@ public class CuteWorldManager : MonoBehaviour
             realWorldPlatforms.SetActive(true);
         if (visibleCuteWorldPlatforms != null)
             visibleCuteWorldPlatforms.SetActive(false);
+
+        // Switch tilemaps
+        realWorldTilemap.gameObject.SetActive(true);
+        cuteWorldTilemap.gameObject.SetActive(false);
     }
 
     void SetActiveBackgrounds(GameObject[] backgrounds, bool active)
