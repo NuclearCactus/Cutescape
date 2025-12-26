@@ -3385,6 +3385,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (6)
@@ -3393,6 +3401,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -3456,7 +3468,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1598443940}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &136528450 stripped
 Transform:
@@ -4086,7 +4101,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1216911929}
   m_SourcePrefab: {fileID: 100100000, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
 --- !u!1 &162848686
 GameObject:
@@ -5602,7 +5620,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 10.8
+  orthographic size: 9
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -6445,6 +6463,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (5)
@@ -6453,6 +6479,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -6516,7 +6546,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122402447}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1 &291383095 stripped
 GameObject:
@@ -6744,6 +6777,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (1)
@@ -6752,6 +6793,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -6815,7 +6860,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1906126665}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &315430344 stripped
 Transform:
@@ -8621,6 +8669,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (2)
@@ -8629,6 +8685,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -8692,7 +8752,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1696368227}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1001 &422189226
 PrefabInstance:
@@ -10484,6 +10547,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (5)
@@ -10492,6 +10563,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -10555,7 +10630,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1455678920}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1001 &505280188
 PrefabInstance:
@@ -11923,6 +12001,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &551814177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1530159551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &559698941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13513,6 +13596,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
   m_PrefabInstance: {fileID: 636214027}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &636987201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 873149618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &646554610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -14657,6 +14745,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1530159551}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &691792408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551814177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1001 &692747498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15092,6 +15195,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &714419600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1414796383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &714495434 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -17394,6 +17502,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1414796383}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &836904007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714419600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1001 &841211479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17636,11 +17759,152 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1014231902}
   m_SourcePrefab: {fileID: 100100000, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
+--- !u!1 &845859743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1842143678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &845937527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 12153945901282947, guid: 7005ca12d4a113a49ab0fbf3fbb645fc, type: 3}
   m_PrefabInstance: {fileID: 1769346753}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &847195752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847195753}
+  - component: {fileID: 847195755}
+  - component: {fileID: 847195754}
+  m_Layer: 5
+  m_Name: CheckpointText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &847195753
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847195752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1358060706}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 110.900024, y: 10.700012}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &847195754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847195752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: You passed a Checkpoint!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18
+  m_fontSizeBase: 18
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -25.526062, w: 26.000294}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &847195755
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847195752}
+  m_CullTransparentMesh: 1
 --- !u!1001 &849890024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17649,6 +17913,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (1)
@@ -17657,6 +17929,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -17720,7 +17996,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1109520404}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &849890025 stripped
 Transform:
@@ -17986,6 +18265,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1465088444}
   m_SourcePrefab: {fileID: 100100000, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
+--- !u!1 &871203899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1604749383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &873149618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17994,6 +18278,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint
@@ -18002,6 +18294,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -18028,7 +18324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1268234
+      value: -1.482
       objectReference: {fileID: 0}
     - target: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18065,13 +18361,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 873149623}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &873149619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 873149618}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &873149623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636987201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1 &873427744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -19465,6 +19779,7 @@ MonoBehaviour:
   batteryPickupSound: {fileID: 8300000, guid: 64abc23e475a70a44a704458a3bf6359, type: 3}
   batteryEmptySound: {fileID: 8300000, guid: 674be377da160e84a97aace0b0c9a773, type: 3}
   batteryFullDeathSound: {fileID: 8300000, guid: 6188ee1325dc6d141b3dcfa8b780b314, type: 3}
+  checkpointSound: {fileID: 8300000, guid: 5039ee246bb963a4780525ab84effc50, type: 3}
 --- !u!4 &925396033
 Transform:
   m_ObjectHideFlags: 0
@@ -19728,6 +20043,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
   m_PrefabInstance: {fileID: 741504652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &951648339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 421339110}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &952785105 stripped
 Transform:
@@ -23336,6 +23656,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (3)
@@ -23344,6 +23672,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -23407,7 +23739,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1472169966}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1001 &1080992277
 PrefabInstance:
@@ -23990,6 +24325,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1109520400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 849890024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1109520404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109520400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1 &1112238802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -27212,6 +27567,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (3)
@@ -27220,6 +27583,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -27283,7 +27650,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1612797580}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &1211144431 stripped
 Transform:
@@ -27470,6 +27840,52 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
   m_PrefabInstance: {fileID: 161296549}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1216911929
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216911926}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &1217616602 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -30088,6 +30504,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1296755526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1999884182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1296755530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296755526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1001 &1297511929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -147012,6 +147448,236 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 107, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 108, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 109, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 110, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 111, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 112, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 113, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 114, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 115, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 116, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 117, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 118, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 119, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 120, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 121, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 122, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 123, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 124, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 125, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 126, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 127, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 128, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 129, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 131, y: -17, z: 0}
     second:
       serializedVersion: 2
@@ -201244,13 +201910,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 16894
+  - m_RefCount: 16917
     m_Data: {fileID: 11400000, guid: 9660c89cfcdb00e4f82d56337a043eca, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 16894
+  - m_RefCount: 16917
     m_Data: {fileID: 21300000, guid: 16666b7fb67d9314484066f3a662180d, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 16894
+  - m_RefCount: 16917
     m_Data:
       e00: 1
       e01: 0
@@ -201269,7 +201935,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 16894
+  - m_RefCount: 16917
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -201308,6 +201974,7 @@ GameObject:
   - component: {fileID: 1358060708}
   - component: {fileID: 1358060707}
   - component: {fileID: 1358060710}
+  - component: {fileID: 1358060711}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -201334,6 +202001,7 @@ RectTransform:
   - {fileID: 2015917809}
   - {fileID: 964680303}
   - {fileID: 1418662888}
+  - {fileID: 847195753}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -201418,6 +202086,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   dialogueBox: {fileID: 875154642}
   dialogueTextMesh: {fileID: 120931109}
+--- !u!114 &1358060711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358060705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c58ef26bd5ba7248a8154ee75651032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  checkpointText: {fileID: 847195754}
+  fadeInTime: 0.2
+  holdTime: 1.2
+  fadeOutTime: 0.4
 --- !u!4 &1358666699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -202443,6 +203127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (6)
@@ -202451,6 +203143,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -202514,7 +203210,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 836904007}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!114 &1416827936 stripped
 MonoBehaviour:
@@ -202668,6 +203367,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5913255243924067605, guid: d0577b71f29f2274abd47f83c96a6ff4, type: 3}
   m_PrefabInstance: {fileID: 103094136}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1422252320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1524446190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1423346613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -202811,7 +203515,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 40
-    OrthographicSize: 10.8
+    OrthographicSize: 9
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -202895,6 +203599,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1428131841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1211057404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1428691326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -203259,6 +203968,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1080459439}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1455678916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 503491133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1455678920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455678916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!4 &1462832826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 12153945901282947, guid: 7005ca12d4a113a49ab0fbf3fbb645fc, type: 3}
@@ -203464,6 +204193,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
   m_PrefabInstance: {fileID: 279082862}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1472169962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 1080459439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1472169966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472169962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1 &1473160789
 GameObject:
   m_ObjectHideFlags: 0
@@ -204390,6 +205139,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1842143678}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1493687809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845859743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1001 &1499664614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320494,6 +321258,236 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 107, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 108, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 109, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 110, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 111, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 112, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 113, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 114, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 115, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 116, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 117, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 118, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 119, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 120, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 121, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 122, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 123, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 124, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 125, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 126, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 127, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 128, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 129, y: -17, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 131, y: -17, z: 100}
     second:
       serializedVersion: 2
@@ -374726,13 +375720,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 16927
+  - m_RefCount: 16950
     m_Data: {fileID: 11400000, guid: df74ecd9dd091a1438d9581f7af87e08, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 16927
+  - m_RefCount: 16950
     m_Data: {fileID: 21300000, guid: 3d5e157cd97f5144e8be62b5157b4390, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 16927
+  - m_RefCount: 16950
     m_Data:
       e00: 1
       e01: 0
@@ -374751,7 +375745,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 16927
+  - m_RefCount: 16950
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -375046,6 +376040,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (7)
@@ -375054,6 +376056,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -375117,13 +376123,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1524446195}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &1524446191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1524446190}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524446195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422252320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1001 &1525721664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -375531,6 +376555,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (2)
@@ -375539,6 +376571,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -375602,7 +376638,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 691792408}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1 &1530370888 stripped
 GameObject:
@@ -378753,6 +379792,26 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1449302639}
   m_SourcePrefab: {fileID: 100100000, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
+--- !u!1 &1598443936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 132829502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1598443940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598443936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1 &1600865232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -378969,6 +380028,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (4)
@@ -378977,6 +380044,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -379040,13 +380111,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1809895168}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!4 &1612797576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1211057404}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1612797580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428131841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1001 &1616194825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -380133,6 +381222,10 @@ MonoBehaviour:
   batteryAmmo: 0
   isCuteMode: 0
   isBrainrotUnlocked: 0
+  cinemachineCamera: {fileID: 1424092015}
+  realWorldZoom: 9
+  cuteWorldZoom: 13
+  zoomDuration: 0.6
   cuteModeEnabledSound:
     Guid:
       Data1: -73333465
@@ -381207,6 +382300,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 421339110}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1696368227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951648339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1 &1701525576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -383385,6 +384493,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 12153945901282947, guid: 7005ca12d4a113a49ab0fbf3fbb645fc, type: 3}
   m_PrefabInstance: {fileID: 403653504}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1796733675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 2078486283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1796733679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796733675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!4 &1802700333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 12153945901282947, guid: 7005ca12d4a113a49ab0fbf3fbb645fc, type: 3}
@@ -383628,6 +384756,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4513398487305549492, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
   m_PrefabInstance: {fileID: 1604749383}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1809895168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871203899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!4 &1810530166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -385212,6 +386355,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint
@@ -385220,6 +386371,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -385283,7 +386438,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1493687809}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1 &1842466268 stripped
 GameObject:
@@ -387111,6 +388269,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1906126661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 314908090}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1906126665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906126661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!1 &1911041930 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6453448634018135027, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}
@@ -389500,6 +390678,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint (4)
@@ -389508,6 +390694,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -389571,7 +390761,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1296755530}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1 &1999939495 stripped
 GameObject:
@@ -391112,7 +392305,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.004839137}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -391122,7 +392315,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.8996278}
   m_EdgeRadius: 0
 --- !u!1 &2050996933 stripped
 GameObject:
@@ -392424,6 +393617,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 508820764}
     m_Modifications:
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725231348273582297, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Name
       value: Checkpoint
@@ -392432,6 +393633,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6910399617694844740, guid: a6596666d9613844c92e0d9dfb8df925, type: 3}
+    - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
     - target: {fileID: 3834527031060313592, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -392495,7 +393700,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1796733679}
   m_SourcePrefab: {fileID: 100100000, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
 --- !u!1 &2081981713 stripped
 GameObject:
@@ -393541,6 +394749,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &2122402443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3222476082845433540, guid: e6c282d0433e9e14491e16144c7c1d2f, type: 3}
+  m_PrefabInstance: {fileID: 290393853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2122402447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122402443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe17c66d4ffea044b52144db1d4a83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BobbingMotion
+  amplitude: 0.4
+  frequency: 2.5
+  active: 1
 --- !u!4 &2123918340 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3519050042539668192, guid: 5957c7280369b9d4998e68bd292e8ee8, type: 3}

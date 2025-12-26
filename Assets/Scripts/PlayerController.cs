@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private SpriteRenderer sr;
 
+    private Vector2 horizontalMove;
+
     
     void Start()
     {
@@ -73,6 +75,8 @@ public class PlayerController : MonoBehaviour
         // Jump
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            anim.SetBool("IsJumping", true);
+
             // normal jump
             if (isGrounded)
             {
@@ -112,6 +116,7 @@ public class PlayerController : MonoBehaviour
         // Landing SFX
         if (isGrounded && rb.linearVelocity.y == 0 && !isTouchingWall)
         {
+            anim.SetBool("IsJumping", false);
             // only if recently in air
             if (!wasGrounded)
             {
@@ -124,8 +129,10 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Horizontal movement
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        horizontalMove = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        rb.linearVelocity = horizontalMove;
         anim.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        anim.SetFloat("speed", Mathf.Abs(horizontalMove.x));
     }
 
     private void OnDrawGizmosSelected()

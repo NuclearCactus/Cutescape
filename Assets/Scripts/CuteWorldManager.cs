@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using FMODUnity;
+using Unity.Cinemachine;
+using System.Collections;
 
 public class CuteWorldManager : MonoBehaviour
 {
@@ -42,6 +44,15 @@ public class CuteWorldManager : MonoBehaviour
     public bool isCuteMode = false;
     public bool isBrainrotUnlocked = false; // Set to true when player enters trigger
 
+    [Header("Cinemachine Camera")]
+    public CinemachineCamera cinemachineCamera;
+
+    public float realWorldZoom = 5f;   // Original camera size
+    public float cuteWorldZoom = 8f; // Zoomed-out value
+    public float zoomDuration = 0.6f;  // Smooth transition time
+
+    private Coroutine zoomCoroutine;
+
     public EventReference cuteModeEnabledSound;
     public EventReference cuteModeDisabledSound;
 
@@ -79,11 +90,20 @@ public class CuteWorldManager : MonoBehaviour
         SetActiveBackgrounds(cuteWorldBackgrounds, false);
         SetActiveBackgrounds(brainrotWorldBackgrounds, false);
 
+        // Initialize tilemaps - only Real World active at start
+        realWorldTilemap.gameObject.SetActive(true);
+        cuteWorldTilemap.gameObject.SetActive(false);
+
         // Initialize platforms - only Real World visible at start
         if (realWorldPlatforms != null)
             realWorldPlatforms.SetActive(true);
         if (visibleCuteWorldPlatforms != null)
             visibleCuteWorldPlatforms.SetActive(false);
+
+        if (cinemachineCamera != null)
+        {
+            realWorldZoom = cinemachineCamera.Lens.OrthographicSize;
+        }
     }
 
     void Update()
@@ -168,6 +188,9 @@ public class CuteWorldManager : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(cuteModeEnabledSound);
         
         SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOnSound);
+
+        // Set camera zoom
+        SetCameraZoom(cuteWorldZoom);
     }
 
     public void DisableCuteMode()
@@ -196,6 +219,9 @@ public class CuteWorldManager : MonoBehaviour
         }
         firstLaunch = false;
         SFXManager.Instance.PlaySFX(SFXManager.Instance.phoneOffSound);
+
+        // Disable camera zoon
+        SetCameraZoom(realWorldZoom);
     }
 
     // ============================
@@ -313,4 +339,38 @@ public class CuteWorldManager : MonoBehaviour
         if (batteryAmmoText != null)
             batteryAmmoText.text = "x" + batteryAmmo;
     }
+
+    // Camera Zooming
+
+    IEnumerator SmoothZoom(float targetZoom)
+    {
+        float startZoom = cinemachineCamera.Lens.OrthographicSize;
+        float elapsed = 0f;
+
+        while (elapsed < zoomDuration)
+        {
+            elapsed += Time.deltaTime;
+            // float t = elapsed / zoomDuration;
+            float t = Mathf.SmoothStep(0, 1, elapsed / zoomDuration);
+
+
+            cinemachineCamera.Lens.OrthographicSize =
+                Mathf.Lerp(startZoom, targetZoom, t);
+
+            yield return null;
+        }
+
+        cinemachineCamera.Lens.OrthographicSize = targetZoom;
+    }
+
+    void SetCameraZoom(float targetZoom)
+    {
+        if (cinemachineCamera == null) return;
+
+        if (zoomCoroutine != null)
+            StopCoroutine(zoomCoroutine);
+
+        zoomCoroutine = StartCoroutine(SmoothZoom(targetZoom));
+    }
+
 }

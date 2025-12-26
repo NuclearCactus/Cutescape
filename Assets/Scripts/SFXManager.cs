@@ -21,7 +21,9 @@ public class SFXManager : MonoBehaviour
     public AudioClip batteryPickupSound;
     public AudioClip batteryEmptySound;     // battery level hits 0 but player still has ammo
     public AudioClip batteryFullDeathSound; // player fully dies when no battery ammo left
-
+    
+    [Header("Checkpoint Sounds")]
+    public AudioClip checkpointSound;
     private AudioSource audioSource;
 
     void Awake()
